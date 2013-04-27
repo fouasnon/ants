@@ -7,7 +7,7 @@ angular.module('art', []).
     $locationProvider.html5Mode(true);
 
     $routeProvider.when('/', {
-      templateUrl: '/partials/hello_world.html'
+      templateUrl: 'partials/hello_world.html'
     });
     $routeProvider.otherwise({redirectTo: '/'});
   }])
